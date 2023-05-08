@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Acronyms</string>
+    <string name="io">Network interruption</string>
+    <string name="serialization"> Serialization Error</string>
+    <string name="http">HTTP Error</string>
+    <string name="general_error">"Error occurred. Please try again later."</string>
 </resources>
