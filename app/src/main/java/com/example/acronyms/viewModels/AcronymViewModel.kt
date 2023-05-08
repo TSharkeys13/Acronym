@@ -32,10 +32,6 @@ class AcronymViewModel @Inject constructor(private val repo: AcronymRepository) 
         _state.value = _state.value?.copy(isLoading = false, showResultText = false, errorTextId = errorText)
     }
 
-    /**
-     * Get words from acronym.
-     * @param acronym: String
-     */
     fun getWordsFromAcronym() = viewModelScope.launch(handler) {
         _state.value = _state.value?.copy(isLoading = true)
         val words = repo.getWordsFromAcronym(input.value!!)
