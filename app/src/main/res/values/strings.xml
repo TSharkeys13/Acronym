@@ -4,7 +4,7 @@
     <string name="serialization"> Serialization Error</string>
     <string name="http">HTTP Error</string>
     <string name="result">%d Result(s)</string>
-    <string name="general_error">"Error occurred. Please try again later."</string>
+    <string name="general_error">"Network Error occurred. Please try again later."</string>
     <string name="hint_text">Enter Acronym initials</string>
     <string name="search">Search</string>
 </resources>
